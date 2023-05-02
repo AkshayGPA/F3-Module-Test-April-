@@ -104,3 +104,41 @@
   border: 1px solid white;
   vertical-align: center;
 }
+
+/* Styling the remainder of the page which I call as the browse shop div */
+
+#browse-shop {
+  padding: 1rem;
+  width: 100%;
+}
+
+#search-box {
+  padding: 0.5rem 1rem 0.5rem 1.8rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 1rem 0;
+
+  font-size: 1.1rem;
+
+  background-image: url(Images/Shop/search.png);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position-x: 7px;
+  background-position-y: center;
+
+  /* Adding search icon through background image */
+}
+
+#category-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-filter-btns {
+  font-size: 1.1rem;
+  width: 18%;
+  padding: 0.4rem 1rem;
+  background-color: white;
+  border: 1px solid black;
+}
+
