@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Page</title>
+  <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+  <nav id="navbar-flex">
+    <ul class="nav-els" id="navigation-bar">
+      <li class="nav-left">MeShop.</li>
+      
+      <li><a id="nav-homePg" href="shop.html" class="nav-els-a nav-right">Home</a></li>
+
+      <li><a id="nav-loginPg" href="#" class="nav-els-a nav-right">Login</a></li>
+      
+      <li><a id="nav-signupPg" href="#" class="nav-els-a nav-right">Signup</a></li>
+      
+      <li><a id="nav-myCartPg" href="#" class="nav-els-a nav-right">MyCart</a></li>
+    </ul>
+  </nav>
+
+  <div id="shop-flex" class="row-flex">
+    <div id="filters-col" class="column-flex">
+      <hr class="horizontal-line">
+      
+      <div id="colors-div">
+        <p id="colors-heading" class="filter-headings">Colors</p>
+
+        <label class="label-block"><input class="colors-checkbox" type="checkbox"><span class="span-colors">Red</span></label>
+
+        <label class="label-block"><input class="colors-checkbox" type="checkbox"><span class="span-colors">Blue</span></label>
+
+        <label class="label-block"><input class="colors-checkbox" type="checkbox"><span class="span-colors">Green</span></label>
+
+        <label class="label-block"><input class="colors-checkbox " type="checkbox"><span class="span-colors">Black</span></label>
+
+        <label class="label-block"><input class="colors-checkbox " type="checkbox"><span class="span-colors">White</span></label>
+      </div>
+
+      <hr class="horizontal-line">
+
+      <div id="size-div">
+        <p id="size-heading"class="filter-headings">Sizes</p>
+
+        <label class="label-block"><input class="size-checkbox" type="checkbox"><span class="span-size">S</span></label>
+
+        <label class="label-block"><input class="size-checkbox" type="checkbox"><span class="span-size">M</span></label>
+
+        <label class="label-block"><input class="size-checkbox" type="checkbox"><span class="span-size">L</span></label>
+
+        <label class="label-block"><input class="size-checkbox" type="checkbox"><span class="span-size">XL</span></label>
+      </div>
+
+      <hr class="horizontal-line">
+
+      <div id="rating-div">
+        <p id="rating-heading"class="filter-headings">Ratings</p>
+
+        
+      </div>
+
+      <hr class="horizontal-line">
+
+      <div id="price-div">
+        <p id="price-heading"class="filter-headings">Price Range</p>
+
+        <label class="label-block"><input class="price-checkbox" type="checkbox"><span class="span-price">$0 to $25</span></label>
+        
+        <label class="label-block"><input class="price-checkbox" type="checkbox"><span class="span-price">$25 to $50</span></label>
+        
+        <label class="label-block"><input class="price-checkbox" type="checkbox"><span class="span-price">$50 to $100</span></label>
+        
+        <label class="label-block"><input class="price-checkbox" type="checkbox"><span class="span-price">$100 onwards</span></label>
+      </div>
+
+      <button id="apply-filter-btn">Apply Filter</button>
+    </div>
+
+    <div id="browse-shop">
+      
+    </div>
+  </div>
+
+  <script src="shop.js"></script>
+</body>
+</html>

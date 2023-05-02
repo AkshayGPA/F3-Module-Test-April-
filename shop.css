@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+
+#navbar-flex {
+  background-color: rgb(19, 19, 18);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.4rem;
+}
+
+#navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+#navigation-bar li {
+  list-style: none;
+  padding: 0.5rem;
+  color: white;
+}
+
+/* To align only the MeShop element to the left */
+.nav-left {
+  margin-right: auto;
+}
+
+.nav-right{
+  margin-right: 0.5rem;
+}
+
+.nav-els-a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav-els-a:hover {
+  color: rgb(243, 162, 64);
+}
+
+/* Styling for the filters column */
+
+#shop-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+#filters-col {
+  display: flex;
+  flex-direction: column;
+  width: 11em;
+  height: 93vh;
+  background-color: rgb(31, 30, 28);
+  color: white;
+  font-weight: 200;
+}
+
+/* Horizontal line properties are common throughout the filters div */
+.horizontal-line {
+  background-color: rgb(255, 255, 255);
+  height: 1px;
+  padding: 0;
+  margin: 0 0 0.5rem 0;
+  border: none;
+
+  /* Using only bottom margin for the line since top margin will make the first line move down from the intersection point with navbar */
+}
+
+#colors-div, #size-div, #rating-div, #price-div {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#colors-heading, #size-heading, #rating-heading, #price-heading {
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+  margin-left: 0.1rem;
+}
+
+.label-block {
+  display: block;
+  padding: 0.2rem;
+}
+
+.span-colors, .span-size, .span-price {
+  margin-left: 0.4rem;
+}
+
+#apply-filter-btn {
+  width: 80%;
+  padding: 0.5rem 0.7rem;
+  margin: 3rem auto;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  vertical-align: center;
+}
