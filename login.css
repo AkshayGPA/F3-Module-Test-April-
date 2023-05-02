@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+
+#login-navbar-flex {
+  background-color: rgb(19, 19, 18);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.4rem;
+}
+
+#navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+#navigation-bar li {
+  list-style: none;
+  padding: 0.5rem;
+  color: white;
+}
+
+/* To align only the MeShop element to the left */
+.nav-left {
+  margin-right: auto;
+}
+
+.nav-right{
+  margin-right: 0.5rem;
+}
+
+.nav-els-a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.nav-els-a:hover {
+  color: rgb(243, 162, 64);
+}
+
+/* Styling the components on the Login page of the store */
+
+#login-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+#login-heading {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0.3rem 0;
+  margin: -0.5rem 0 1rem 0;
+}
+
+.login-inputs {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+}
+
+#login-btn {
+  padding: 0.5rem 2.5rem;
+  margin-top: 1.5rem;
+  width: fit-content;
+
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+
+  font-size: 1.1rem;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(0, 0, 0);
+  opacity: 1; /* Firefox */
+}
