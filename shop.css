@@ -53,9 +53,10 @@
 }
 
 #filters-col {
+  /* position: fixed; */
   display: flex;
   flex-direction: column;
-  width: 11em;
+  width: 15%;
   height: 93vh;
   background-color: rgb(31, 30, 28);
   color: white;
@@ -80,7 +81,7 @@
   margin-bottom: 0.5rem;
 }
 
-#colors-heading, #size-heading, #rating-heading, #price-heading {
+.filter-headings {
   font-size: 1.3rem;
   margin-bottom: 0.7rem;
   margin-left: 0.1rem;
@@ -108,7 +109,7 @@
 /* Styling the remainder of the page which I call as the browse shop div */
 
 #browse-shop {
-  padding: 1rem;
+  padding: 1.5rem;
   width: 100%;
 }
 
@@ -142,3 +143,69 @@
   border: 1px solid black;
 }
 
+/* Styling the product listings div */
+
+#product-listings-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#category-heading {
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+.product-tile-flex {
+  display: flex;
+  padding: 0.5rem 0;
+  justify-content: space-evenly;
+  overflow-x: auto;
+}
+
+.product-tiles {
+  width: 21rem;
+  height: 28rem;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0.5rem 1.5rem 0.5rem 0;
+}
+
+.product-image-div {
+  padding: 0.2rem 0;
+  margin: 0.15rem auto;
+  width: 97%;
+  height: 65%;
+  border: 1px solid black;
+}
+
+.product-details-div {
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  height: 19%;
+  padding: 0.2rem 0.2rem;
+  margin: 0.5rem auto;
+  margin-bottom: 0;
+  border: 1px solid black;
+}
+
+.price-size-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.3rem 0.2rem;
+}
+
+.color-options, .current-ratings {
+  margin: 0.3rem 0.2rem 0 0.2rem;
+}
+
+.add-to-cart-btns {
+  padding: 0.2rem;
+  margin: 0;
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  color: white;
+  border: none;
+}
